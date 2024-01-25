@@ -1,10 +1,10 @@
-package proceso;
+package Figuras;
 
-public class Cuadrado {
+public class Cuadrado { 
 	
 	double diagonal(double lado) {
 		double resultado;
-		resultado = 1.4142 * lado; //La formula de pitagoras, si los catetos son iguales, se puede simplificar la formula a: Raiz de 2 por cateto
+		resultado = 1.4142 * lado;
 		return resultado;
 	}
 	double perimetro(double lado) {
